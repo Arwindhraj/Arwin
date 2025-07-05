@@ -9,7 +9,8 @@ import {
   IconBriefcase,
   IconCalendar,
   IconCode,
-  IconSchool
+  IconSchool,
+  IconFileCv
 } from "@tabler/icons-react";
 
 export default function Home() {
@@ -34,6 +35,13 @@ export default function Home() {
       href: "https://x.com/Arwin_06",
       label: "X (Twitter)"
     },
+    {
+      icon: IconFileCv,
+      href: "/Arwindhraj%20Resume.pdf", // URL encoded space
+      label: "Resume",
+      isExternal: false,
+      download: true
+    }
   ];
 
   const workExperience = [
@@ -151,10 +159,6 @@ export default function Home() {
               <span className="text-black">
                 Arwindhraj KG
               </span>
-              , and I turn ideas into{" "}
-              <span className="text-black">
-                AI-driven solutions
-              </span>
             </motion.h1>
 
             {/* Summary */}
@@ -165,7 +169,7 @@ export default function Home() {
               className="text-center max-w-3xl mx-auto px-4"
             >
               <p className="text-lg text-gray-600 leading-relaxed mt-4">
-                Motivated AI enthusiast eager to apply expertise in machine learning and software development to innovative projects. 
+                AI enthusiast eager to apply expertise in machine learning and software development to innovative projects. 
                 Aiming to join a dynamic team where I can apply my experience with AI-driven solutions, optimize system performance, 
                 and drive technological advancements in the industry.
               </p>
