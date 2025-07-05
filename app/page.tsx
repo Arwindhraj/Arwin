@@ -124,6 +124,7 @@ export default function Home() {
         <meta name="twitter:title" content="Arwindhraj KG - AI Developer" />
         <meta name="twitter:description" content="AI enthusiast and software developer specializing in machine learning and computer vision." />
         <link rel="canonical" href="https://arwindh.vercel.app" />
+        <meta name="google-site-verification" content="PhZIvUWpLfzDcJyCK9KESI-0ZQDNAouQtJwQp3sOpAs" />
       </Head>
     <div className="min-h-screen bg-white">
       <main>
