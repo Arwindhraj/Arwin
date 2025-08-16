@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Arwindhraj",
   description: "Portfolio of Arwindhraj KG",
+  icons: {
+    icon: "/resume.png",
+  },
 };
 
 export default function RootLayout({
